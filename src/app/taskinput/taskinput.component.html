@@ -1,0 +1,11 @@
+<mat-form-field>
+    <input matInput type="text" placeholder="New task" #newtask >
+</mat-form-field>
+
+<input  type="image" alt="Add" src="assets/images/Add Image.png"  
+style="height: 20px;width:20px;padding-left:10px;vertical-align: baseline" (click)="AddTask(newtask.value)">
+
+<!-- <mat-icon aria-hidden="false" aria-label="Example thumbs up SVG icon">thumbs-up</mat-icon> -->
+
+
+
